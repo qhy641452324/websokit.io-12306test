@@ -1,10 +1,4 @@
-/*
- * @Description: In User Settings Edit
- * @Author: your name
- * @Date: 2019-09-29 16:27:04
- * @LastEditTime: 2019-09-29 16:27:04
- * @LastEditors: your name
- */
+
 if (!process.env.NODE_ENV) {
     process.env.NODE_ENV = 'development'
 }
