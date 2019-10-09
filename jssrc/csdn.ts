@@ -1,10 +1,4 @@
-/*
- * @Description: In User Settings Edit
- * @Author: your name
- * @Date: 2019-10-08 15:41:39
- * @LastEditTime: 2019-10-09 14:03:14
- * @LastEditors: Please set LastEditors
- */
+
 
 /***
  *                                         ,s555SB00&
