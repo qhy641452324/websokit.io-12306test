@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- <%= (new Date()).toLocaleString() %> -->
+<html lang="zh_CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="123" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随便看看呢</title>
+    <base target="_blank">
+    <script>
+        window.startTime = new Date().getTime(); //"window.onload外开始时间:",window.startTime
+    </script>
+    <!-- <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /> -->
+    <!-- <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/global.css" rel="stylesheet">
+    <link href="./css/public.css" rel="stylesheet"> -->
+    <link href="../css/iconfont.css" rel="stylesheet">
+    <!-- 日期城市控件 -->
+    <!-- <link href="./css/common/calendarNew.css" rel="stylesheet">
+    <link href="./css/common/table.css" rel="stylesheet">
+    <link href="./css/common/station.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css"> -->
+    <link rel="stylesheet" href="https://www.12306.cn/index/css/index_y_v30001.css">
+    <link rel="stylesheet" href="../css/nationalDay.css">
+    <script src="https://www.12306.cn/index/script/core/lib/jquery.min.js"></script>
+</head>
+<style>
+    .typeahead li {
+        width: 265px;
+        padding-left: 10px;
+    }
+
+    a:hover {
+        color: #000;
+    }
+</style>
+
+<body>
+
+    <div>
+        <%- body %>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

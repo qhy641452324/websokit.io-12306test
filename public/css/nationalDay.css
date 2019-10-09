@@ -1,0 +1,328 @@
+a:hover {
+  color: #FF8000;
+}
+
+.header { 
+  background-image: url(https://www.12306.cn/index/images/nationalDay/header.png);
+  background-image: -webkit-image-set(url(https://www.12306.cn/index/images/nationalDay/header.png) 1x, url(https://www.12306.cn/index/images/nationalDay/header@2x.png) 2x);
+  background-image: image-set(url(https://www.12306.cn/index/images/nationalDay/header.png) 1x, url(https://www.12306.cn/index/images/nationalDay/header@2x.png) 2x);
+  background-repeat: repeat-x;
+}
+
+.header:before {
+  background-image: url(https://www.12306.cn/index/images/nationalDay/train2.png);
+  background-image: -webkit-image-set(url(https://www.12306.cn/index/images/nationalDay/train2.png) 1x, url(https://www.12306.cn/index/images/nationalDay/train2@2x.png) 2x);
+  background-image: image-set(url(https://www.12306.cn/index/images/nationalDay/train2.png) 1x, url(https://www.12306.cn/index/images/nationalDay/train2@2x.png) 2x);
+}
+
+.header-right {
+  background-image: url(https://www.12306.cn/index/images/nationalDay/train.png);
+  background-image: -webkit-image-set(url(https://www.12306.cn/index/images/nationalDay/train.png) 1x, url(https://www.12306.cn/index/images/nationalDay/train@2x.png) 2x);
+  background-image: image-set(url(https://www.12306.cn/index/images/nationalDay/train.png) 1x, url(https://www.12306.cn/index/images/nationalDay/train@2x.png) 2x);
+}
+
+.header-search .search-bd .search-input {
+  border: 1px solid #FFD39C;
+}
+
+.header-search .search-bd .search-input.focus {
+  border: 1px solid #BC1500;
+}
+
+.header-search .search-btn {
+  background: #BC1500;
+}
+
+.header-search .search-btn:hover {
+  background: #BC1500;
+}
+
+.header-menu .menu-nav-hd {
+  color: #FF8000;
+}
+
+.header-menu .menu-nav-hd .caret {
+  border-color: #FF8000 transparent transparent transparent;
+}
+
+.header-menu .menu-nav-bd a:hover {
+  color: #FF8000;
+}
+
+.header-menu .txt-primary {
+  color: #FF8000 !important;
+}
+
+.header-search .search-down .close, .header-search .search-history .close {
+  color: #f80;
+}
+
+.header-search .search-down-list .icon {
+  color: #f80;
+}
+
+.header-search .search-hot-key a:hover {
+  color: #f80;
+}
+
+.header-search .history-clear {
+  color: #f80;
+}
+
+.header-search .search-history-list li:hover {
+  color: #f80;
+}
+
+.nav-box {
+  background: none;
+}
+
+.nav .nav-item:hover .nav-hd {
+  background: none;
+  background-image: url("https://www.12306.cn/index/images/nationalDay/nav.png");
+  background-image: -webkit-image-set(url("https://www.12306.cn/index/images/nationalDay/nav.png") 1x, url("https://www.12306.cn/index/images/nationalDay/nav@2x.png") 2x);
+  background-image: image-set(url("https://www.12306.cn/index/images/nationalDay/nav.png") 1x, url("https://www.12306.cn/index/images/nationalDay/nav@2x.png") 2x);
+}
+
+.nav .nav-item.nav-item-w1:hover .nav-hd,
+.nav .nav-item.nav-item-w1.active .nav-hd {
+  background: none;
+  background-image: url("https://www.12306.cn/index/images/nationalDay/nav2.png");
+  background-image: -webkit-image-set(url("https://www.12306.cn/index/images/nationalDay/nav2.png") 1x, url("https://www.12306.cn/index/images/nationalDay/nav2@2x.png") 2x);
+  background-image: image-set(url("https://www.12306.cn/index/images/nationalDay/nav2.png") 1x, url("https://www.12306.cn/index/images/nationalDay/nav2@2x.png") 2x);
+}
+
+.nav .nav-bd {
+  border: 1px solid #ff8000;
+}
+
+.nav .nav-tit {
+  color: #ff8000;
+}
+
+.nav .nav-con-tits li a {
+  color: #ff8000;
+}
+
+.nav .nav-con li,
+.nav .nav-tit {
+  border-color: #ff8000;
+}
+
+.nav .nav-con li a:hover {
+  color: #ff8000;
+}
+
+.search-index .search-tab-hd .active a {
+  color: #BD1801;
+}
+
+.search-index .search-tab-hd .active:after {
+  background: #BD1801;
+}
+
+.check-list li i {
+  background-image: url("https://www.12306.cn/index/images/nationalDay/check.png");
+  background-image: -webkit-image-set(url("https://www.12306.cn/index/images/nationalDay/check.png") 1x, url("https://www.12306.cn/index/images/nationalDay/check@2x.png") 2x);
+  background-image: image-set(url("https://www.12306.cn/index/images/nationalDay/check.png") 1x, url("https://www.12306.cn/index/images/nationalDay/check@2x.png") 2x);
+}
+
+.check-list .disabled i {
+  background-position: -16px 0;
+}
+
+.check-list .active i {
+  background-position: -32px 0;
+}
+
+.radio-list li i {
+  background-image: url("https://www.12306.cn/index/images/nationalDay/check.png");
+  background-image: -webkit-image-set(url("https://www.12306.cn/index/images/nationalDay/check.png") 1x, url("https://www.12306.cn/index/images/nationalDay/check@2x.png") 2x);
+  background-image: image-set(url("https://www.12306.cn/index/images/nationalDay/check.png") 1x, url("https://www.12306.cn/index/images/nationalDay/check@2x.png") 2x);
+  background-position: -64px 0;
+}
+
+.radio-list .active i {
+  background-image: url("https://www.12306.cn/index/images/nationalDay/check.png");
+  background-image: -webkit-image-set(url("https://www.12306.cn/index/images/nationalDay/check.png") 1x, url("https://www.12306.cn/index/images/nationalDay/check@2x.png") 2x);
+  background-image: image-set(url("https://www.12306.cn/index/images/nationalDay/check.png") 1x, url("https://www.12306.cn/index/images/nationalDay/check@2x.png") 2x);
+  background-position: -96px 0;
+}
+
+.search-index .search-side li {
+  border-bottom-color: #8b0000;
+}
+
+.search-index .search-side li {
+  background-image: url("https://www.12306.cn/index/images/nationalDay/bg01.png");
+  background-image: -webkit-image-set(url("https://www.12306.cn/index/images/nationalDay/bg01.png") 1x, url("https://www.12306.cn/index/images/nationalDay/bg01@2x.png") 2x);
+  background-image: image-set(url("https://www.12306.cn/index/images/nationalDay/bg01.png") 1x, url("https://www.12306.cn/index/images/nationalDay/bg01@2x.png") 2x);
+}
+
+.search-index .search-side li a {
+  border-left: 0;
+  padding-left: 3px;
+}
+
+.search-index .search-side .active a {
+  border-left: 3px solid #bc1500;
+  padding-left: 0;
+  color: #BD1801;
+}
+
+.search-form .form-item-btn .btn-primary {
+  background: none;
+  background-image: url("https://www.12306.cn/index/images/nationalDay/search.png");
+  background-image: -webkit-image-set(url("https://www.12306.cn/index/images/nationalDay/search.png") 1x, url("https://www.12306.cn/index/images/nationalDay/search@2x.png") 2x);
+  background-image: image-set(url("https://www.12306.cn/index/images/nationalDay/search.png") 1x, url("https://www.12306.cn/index/images/nationalDay/search@2x.png") 2x);
+  border-radius: 0;
+  border: none;
+}
+
+.input-box .icon:hover {
+  color: #f80;
+}
+
+.input:focus, .textarea:focus, .input.focus, .focus.textarea {
+  border-color: #f80;
+}
+
+.service-list li {
+  background: none;
+  padding: 23px 0;
+  width: 14.285%;
+}
+
+.service-list li a:hover {
+  color: #ff8000;
+}
+
+.service-list .service-icon {
+  background-image: url("https://www.12306.cn/index/images/nationalDay/service.png");
+  background-image: -webkit-image-set(url("https://www.12306.cn/index/images/nationalDay/service.png") 1x, url("https://www.12306.cn/index/images/nationalDay/service@2x.png") 2x);
+  background-image: image-set(url("https://www.12306.cn/index/images/nationalDay/service.png") 1x, url("https://www.12306.cn/index/images/nationalDay/service@2x.png") 2x);
+  width: 62px;
+  height: 62px;
+}
+
+.service-list .ico-s2 {
+  background-position: -140px 0;
+}
+
+.service-list .ico-s3 {
+  background-position: -210px 0;
+}
+
+.service-list .ico-s4 {
+  background-position: -280px 0;
+}
+
+.service-list .ico-s5 {
+  background-position: -350px 0;
+}
+
+.service-list .ico-s6 {
+  background-position: -420px 0;
+}
+
+.service-list .ico-s7 {
+  background-position: -490px 0;
+}
+
+.service-list .ico-s8 {
+  background-position: -560px 0;
+}
+
+.service-list .ico-s9 {
+  background-position: -630px 0;
+}
+
+.service-lg li {
+  margin-bottom: 10px;
+}
+
+.section .section-tit {
+  color: #BA1400;
+}
+
+.section .section-tit:after {
+  background: #BA1400;
+}
+
+.section .section-hd .more:hover {
+  color: #BA1400;
+}
+
+.news-tab .tab-hd li.active a {
+  background-image: url("https://www.12306.cn/index/images/nationalDay/tit.png");
+  background-image: -webkit-image-set(url("https://www.12306.cn/index/images/nationalDay/tit.png") 1x, url("https://www.12306.cn/index/images/nationalDay/tit@2x.png") 2x);
+  background-image: image-set(url("https://www.12306.cn/index/images/nationalDay/tit.png") 1x, url("https://www.12306.cn/index/images/nationalDay/tit@2x.png") 2x);
+}
+
+.news-index .news-more a:hover,
+.discredit-list .more a:hover {
+  color: #f80;
+}
+
+.news-index li:before,
+.discredit-list .dis-item:before {
+  background: #f80;
+}
+
+.discredit-list dt i {
+  color: #f80;
+}
+
+.travel-train .travel-tips {
+  border-color: #f80;
+  color: #f80;
+}
+
+.footer {
+  background: url(https://www.12306.cn/index/images/nationalDay/footer.png) top center repeat-x;
+}
+
+.footer .foot-con-tit {
+  color: #fff;
+}
+
+.footer .footer-txt {
+  background: #850E00;
+  color: #fff;
+}
+
+.fixed-right-menu {
+  background: #C41920;
+  padding: 25px 0;
+  border-radius: 25px;
+  position: relative;
+}
+.fixed-right-menu:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-image: url("https://www.12306.cn/index/images/nationalDay/year70.png");
+  background-image: -webkit-image-set(url("https://www.12306.cn/index/images/nationalDay/year70.png") 1x, url("https://www.12306.cn/index/images/nationalDay/year70@2x.png") 2x);
+  background-image: image-set(url("https://www.12306.cn/index/images/nationalDay/year70.png") 1x, url("https://www.12306.cn/index/images/nationalDay/year70@2x.png") 2x);
+}
+
+.fixed-right-menu .menu-item {
+  margin-bottom: 0;
+  border-bottom: 1px solid #990000;
+  background: none;
+}
+
+.fixed-right-menu .menu-item:last-child {
+  border-bottom: none;
+}
+
+.fixed-right-menu .menu-item .menu-hd {
+  color: #FFC68D;
+}
+
+.fixed-right-menu .menu-item .menu-hd:hover {
+  color: #fff;
+}
