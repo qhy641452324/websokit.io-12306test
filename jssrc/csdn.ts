@@ -124,10 +124,7 @@ declare let CHAT;
             let separator = '';
             for (const key in onlineUsers) {
                 if (onlineUsers.hasOwnProperty(key)) {
-                    // userhtml += separator + onlineUsers[key];
-                    // separator = '、';
                     //两个参数：目标id、当前的userName
-                    // userhtml += separator + '<span onclick="CHAT.chatsingle('+ key + ',' + this.username +')" >' + onlineUsers[key] +'</span>';
                     userhtml += separator + `<span onclick="CHAT.chatsingle('` + key + `','` + this.username +`')" >`+ onlineUsers[key] + `</span>`;
                     separator = '、';
                 }
@@ -146,7 +143,7 @@ declare let CHAT;
             this.msgObj.appendChild(section);
             this.scrollToBottom();
         },
-        //和单个人通信
+        //和单个人通信,后续完善
         chatsingle: function (userid, curname){//将要发送消息的用户id，当前的用户name
             this.socket.emit('singlemessage', { userid: userid,username: curname, msg:'单个消息测试' });
         },
